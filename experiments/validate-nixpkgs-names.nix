@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Checks every `nixpkgs` attribute in lib/catalogue.nix actually exists. A wrong attribute name is
 # invisible until a NixOS host tries to build, and then it is an eval error in someone else's
 # config — so it gets checked here instead. Same shape as nixdev's own check of the same name.

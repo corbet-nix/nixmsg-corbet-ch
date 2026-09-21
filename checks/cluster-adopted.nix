@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Proves the deployment-side terms actually LAND, read off the rendered bytes.
 #
 # `cluster-render.nix` renders the greenfield surface and proves the catalogue's own answers reach a

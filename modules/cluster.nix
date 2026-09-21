@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixmsg's cluster surface: declare which messaging SERVERS run in the cluster, and render them.
 #

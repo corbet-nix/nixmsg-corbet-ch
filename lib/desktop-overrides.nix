@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # Per-app `.desktop` override data — ONLY for apps that need one. Real upstream desktop-entry
 # content, read directly off a live host (a CachyOS laptop, 2026-08-03), not guessed. Every field

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixmsg — messenger apps, declared per host instead of hand-installed and forgotten.
 #
@@ -94,7 +95,7 @@ let
   # ../lib/catalogue.nix, and the `teams` entry for the only case today. Deliberately resolved
   # HERE rather than in the catalogue: which repositories a name is in is a fact about the world
   # (the catalogue), which of them this machine can reach is a fact about the machine (this
-  # config) — same split github:julian-corbet/nixagent-corbet-ch draws for its own identically-
+  # config) — same split github:corbet-nix/nixagent-corbet-ch draws for its own identically-
   # named `fromAur`.
   fromAur = a: a.channel == "aur" && !(lib.elem cfg.distro (a.archRepoOn or [ ]));
 in
@@ -198,7 +199,7 @@ in
         Enabled apps resolved to the "flatpak" channel, as `{ id, remoteName, remoteUrl }`.
         Neither a NixOS nor an Arch package manager installs these, and NEITHER DOES THIS REPO —
         this list is inert until a consumer hands it to an installer. nixflat
-        (github:julian-corbet/nixflat-corbet-ch) is the one written against this exact shape, and
+        (github:corbet-nix/nixflat-corbet-ch) is the one written against this exact shape, and
         it accepts several catalogues at once, which is the point:
 
             nixflat.apps = config.nixmsg.flatpakApps ++ config.nixoffice.flatpakApps;

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The same two servers, declared the way an ADOPTION has to declare them.
 #
 # `examples/all/values.nix` is the greenfield surface: nothing exists yet, so every name may be

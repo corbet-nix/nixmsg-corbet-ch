@@ -53,7 +53,7 @@ same technique that settled `teams`) if a live check isn't available first.
 ## 003 — `--system` Flatpak scope *(moved to nixflat, experiment 001)*
 
 The installer this question was about is no longer in this repo — it is nixflat's
-(`github:julian-corbet/nixflat-corbet-ch`, `modules/install.nix`), and so is the open question.
+(`github:corbet-nix/nixflat-corbet-ch`, `modules/install.nix`), and so is the open question.
 The number is kept rather than reused: renumbering 004+ to close the gap would silently change
 what an older note referring to "nixmsg experiment 005" points at.
 

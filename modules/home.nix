@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # Home-manager module — session behavior for enabled apps: autostart, workspace-pin intent, and
 # per-app runtime tuning (Wayland flags, data-dir relocation, teams-for-linux config). Deliberately

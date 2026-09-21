@@ -75,7 +75,7 @@ how long a cold start may take before a probe calls it a failure. No address, no
 namespace, no uid and no secret appears anywhere in it; those are one deployment's facts and arrive
 from a declaration.
 
-`modules/cluster.nix` translates a declaration into the [nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch)
+`modules/cluster.nix` translates a declaration into the [nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch)
 app grammar, which is what actually renders the Argo CD Application, Namespace, Deployment and
 Service. This repository renders no Kubernetes object of its own; what it adds is the knowledge the
 grammar cannot have.
@@ -138,14 +138,14 @@ apps via the shared oneshot.
 ## Related projects
 
 Part of the same independently-usable NixOS module family:
-[nixdev](https://github.com/julian-corbet/nixdev-corbet-ch) (the same catalogue-and-resolve
-pattern, for CLI tooling), [nixarch](https://github.com/julian-corbet/nixarch-corbet-ch) (the Arch
-package reconciler this module's Arch backend feeds), [nixdesktop](https://github.com/julian-corbet/nixdesktop-corbet-ch)
+[nixdev](https://github.com/corbet-nix/nixdev-corbet-ch) (the same catalogue-and-resolve
+pattern, for CLI tooling), [nixarch](https://github.com/corbet-nix/nixarch-corbet-ch) (the Arch
+package reconciler this module's Arch backend feeds), [nixdesktop](https://github.com/corbet-nix/nixdesktop-corbet-ch)
 (the session/startup contract `modules/home.nix` writes into), and
-[nixpush](https://github.com/julian-corbet/nixpush-corbet-ch) (provider-agnostic notification
+[nixpush](https://github.com/corbet-nix/nixpush-corbet-ch) (provider-agnostic notification
 *sending* — a different problem: nixpush delivers alerts you generate, nixmsg installs the clients
 you read other people's messages in).
 
-## License
+## Licence
 
-MIT License &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

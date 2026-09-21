@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The messenger catalogue: one entry per selectable app, naming it on every real distribution
 # channel. Mirrors nixdev's lib/tools.nix shape deliberately (same family, same reasoning): a
@@ -54,7 +55,7 @@
 # FLOOR, and `archRepoOn` lifts it onto the pacman list only on a distro whose own repository is
 # known to carry it — consumed against `nixmsg.distro` in ../modules/nixmsg.nix, which documents
 # why that value is declared rather than inferred. Ported from
-# github:julian-corbet/nixagent-corbet-ch's identical `archRepoOn`/`distro` mechanism, written
+# github:corbet-nix/nixagent-corbet-ch's identical `archRepoOn`/`distro` mechanism, written
 # for the exact same shape of problem (`claude-code`) one day before this file adopted it.
 #
 # `nixpkgs` is separate from all three: the attribute under a nixpkgs instance, or `null` where

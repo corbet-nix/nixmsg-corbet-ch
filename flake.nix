@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixmsg — messaging, both ends of it: the messenger apps (Discord, Telegram, Teams, Threema, Signal, WhatsApp, Element, Zoom, Mumble) declared per host, and the servers they talk to declared into a cluster";
 
@@ -23,7 +24,7 @@
     # constructed by the matching factory, and the checks render it through the real grammar rather
     # than asserting that a module which merely mentions `nixk3s.apps` evaluates.
     nixk3s = {
-      url = "git+https://github.com/julian-corbet/nixk3s-corbet-ch";
+      url = "git+https://github.com/corbet-nix/nixk3s-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixidy.follows = "nixidy";
     };
